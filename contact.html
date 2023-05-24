@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <main>
+    <article id="contact">
+        <h1>We value your feedback</h1>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+            <p> 
+             <label for="Name">Name</label>
+             <input type="text" name="Name" 
+             id="Name" placeholder="Your name"
+             autocomplete="on" required autofocus>
+           </p>
+           <br>
+           <p>
+             <label for="email address">Email</label>
+             <input type="text" ="email address" 
+             id="email address" placeholder="Your email"
+             autocomplete="on" required >
+           </p>
+          <br>
+           <p>
+             <label for="phone">Phone</label>
+             <input type="tel" name="phone" 
+             id="phone" placeholder="5555555555"
+             pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+             required >
+           </p>
+           </fieldset>
+          <br>
+           <fieldset>
+               <legend>Talk to us</legend>
+               <label for="message"></label>
+               <br>
+               <textarea name="message" id="message" cols="60" rows="10"placeholder="type your message here"></textarea>
+           </fieldset>
+           </form>
+           <button type="submit">submit</button>
+           <button type="submit" formaction="https://httpbin.org/post"formmethod="post"></button>
+           </article>
+<article>
+    <h2>Find us</h2>
+    <p><address>7th street <br>
+        Nairobi,Kenya.
+    </address></p>
+</article>
+ 
+   </main> 
+</body>
+</html>
+<br>
+<footer>
+        <a href="/hotelproject.html">Back to home</a>
+        <p>Copyright&copy;Oppo Cocktail Hotel</p>
+</footer>
